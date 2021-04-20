@@ -1,0 +1,53 @@
+body {
+	background-color: #808080;
+}
+
+nav {
+	font-family: arial;
+	color: red;
+	text-align: center;
+	font-size: 30px;
+	background-color: red;
+}
+
+ul {
+	color: #990012;
+	font-size: 40px;
+}
+
+h1 {
+	color: blue;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+p {
+	color: #990012;
+	font-size: 20px;
+	text-decoration: bold;
+}
+
+h2 {
+	color: green;
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+h3 {
+	color: green;
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+ol {
+	color: #990012;
+	font-size: 40px;
+	text-decoration: bold;
+}
+
+image {
+	width: auto;
+	height: auto;
+	float: middle;
+}
+
