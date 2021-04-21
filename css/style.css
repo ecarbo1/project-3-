@@ -51,6 +51,12 @@ image {
 	float: middle;
 }
 
+div {
+	float: center;
+	text-align: center;
+	background-color: white;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
