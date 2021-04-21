@@ -24,7 +24,6 @@ h1 {
 p {
 	color: #990012;
 	font-size: 20px;
-	text-decoration: bold;
 }
 
 h2 {
@@ -42,13 +41,11 @@ h3 {
 ol {
 	color: #990012;
 	font-size: 40px;
-	text-decoration: bold;
 }
 
 image {
 	width: auto;
 	height: auto;
-	float: middle;
 }
 
 .warning {
