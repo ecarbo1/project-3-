@@ -51,10 +51,11 @@ image {
 	float: middle;
 }
 
-div {
-	float: center;
-	text-align: center;
-	background-color: white;
+.warning {
+    border: 10px ridge #f00;
+    background-color: #ff0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* For mobile phones: */
