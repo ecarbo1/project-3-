@@ -1,11 +1,15 @@
 var map;
+<style>
+		#map {
+	  		height: 100%;
+		}
 
-
-map = new google.maps.Map(document.getElementById("map"), {
-	center: {lat: 47.8783, lng: -90.6295}, 
-	zoom: 10, 
-});
-
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
 const brownbag = new google.maps.Marker ({
 	position: {lat:41.9435028, lng: -87.6717093},
 	map,
