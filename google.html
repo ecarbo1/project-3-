@@ -19,15 +19,34 @@
 				<a href="google.html">Google Maps</a>
 			</nav>
 		</header>
-		<center>
-        <h1 style="color:lawngreen;">
-				Google Maps
-        </h1>  
-        <div id="map">
-		</div>
-      </body>
-      </html>
-        </div>
-    </center>
+			<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<style>
+		#map {
+	  		height: 100%;
+		}
+
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<script>
+		let map;
+		function initMap() {
+			map = new google.maps.Map( document.getElementById( 'map' ), {
+				center: {
+					lat: 51.513329,
+					lng: -0.088950
+				},
+				zoom: 14
+			});
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </body>
 </html>
